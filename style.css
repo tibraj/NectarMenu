@@ -19,7 +19,7 @@ html, body {
     display: inline-block;
     text-align: center;
     width: 100%;
-    background: hsl(110, 36%, 46%);
+    background: #fdfdfd;
     overflow: hidden;
 }
 
@@ -31,15 +31,16 @@ html, body {
 
 #nav li a {
     display: block;
-    color: #fff;
+    color:  #A0E6FF;
     text-decoration: none;
     padding: 20px 20px;
 }
 
 #nav li a:hover {
     height: 100%;
-    background-color: hsl(143, 36%, 42%);
-    color: #f4f4f4;
+    border: 2px solid  #A0E6FF;
+    box-shadow: 2.5px 5px;
+    color:  #A0E6FF;
 }
 
 #nav img {
@@ -49,3 +50,36 @@ html, body {
     width: 125px;
     top: 20px;
 }
+
+/* Section */
+
+/* #break-1 {
+    margin-top: 45px;
+    width: 49%;
+    float:left
+} */
+section {
+    background-color: #bfefff;
+}
+#about p {
+    margin-top: 145px;
+    width: 50%;
+    float: left;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* #break-2 {
+    margin-top: 140px;
+    width: 49%;
+    float:left;
+} */
+#rest-pic {
+    width: 50%;
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 75px;
+}
+
+
+
