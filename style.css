@@ -60,6 +60,7 @@ html, body {
 } */
 section {
     background-color: #bfefff;
+    opacity: .8;
 }
 #about p {
     margin-top: 145px;
@@ -81,5 +82,53 @@ section {
     margin-bottom: 75px;
 }
 
+#menu {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    background-color:#fdfdfd
+} 
+
+#menu h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.breakfast, .lunch, .dinner{
+    text-align: center;
+    line-height: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid #58a7c4;
+}
+
+.items li {
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.previous, .next {
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 16px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    margin-top: -175px;
+}
+
+.previous {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
 
 
