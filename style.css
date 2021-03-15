@@ -151,10 +151,72 @@ section {
     right: 0;
 }
 
+#reservations {
+    text-align: center;
+}
+
+.name, .email, .phone  {
+    margin: 35px, 0, 20px, 0;
+}
+
+.inline-number-of-guests, .inline-date {
+    width: 49%;
+    display: inline-block;
+    margin-left: 1%;
+}
+
+label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 1.25em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
+input, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 50%;
+    padding: 10px;
+}
+
+select {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 25%;
+    padding: 10px;
+}
+
+#res-btn {
+    border: none; 
+    outline: none; 
+    background-color: gold; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #res-btn:hover {
+    color: brown; 
+  }
+
+
+
 #contact {
     width: 100%;
     height: 50px;
-    background: gold;
+    background: #fff;
     position: absolute;
     z-index: -100;
     opacity: .9;
@@ -164,7 +226,7 @@ section {
     text-align: center;
     color: #000000;
     display:inline-block;
-    margin-left: 215px;
+    margin-left: 235px;
     margin-top: 15px;
     font-size: 1em;
     font-weight: 300;
