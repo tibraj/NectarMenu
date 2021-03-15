@@ -40,7 +40,6 @@ html, body {
     text-align: center;
     width: 100%;
     background: #fdfdfd;
-    box-shadow: 0 0 25px 0 #000000;
     overflow: hidden;
 }
 
@@ -150,6 +149,25 @@ section {
 
 .next {
     right: 0;
+}
+
+#contact {
+    width: 100%;
+    height: 50px;
+    background: gold;
+    position: absolute;
+    z-index: -100;
+    opacity: .9;
+}
+
+#contact p {
+    text-align: center;
+    color: #000000;
+    display:inline-block;
+    margin-left: 215px;
+    margin-top: 15px;
+    font-size: 1em;
+    font-weight: 300;
 }
 
 
